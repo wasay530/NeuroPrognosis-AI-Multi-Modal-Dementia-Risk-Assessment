@@ -8,6 +8,13 @@
 > **A clinical decision-support framework utilizing Graph Theoretical Analysis (fMRI) and Spectral Power Density (EEG) to quantify network degradation associated with early-stage Dementia.**
 
 ---
+## Scientific Novelty & Contribution:
+
+While multimodal fusion is an established concept, this repository contributes a Decoupled Late-Fusion Framework designed specifically for Explainability (XAI) and Data Robustness.
+1. Unlike "Early Fusion" models that obscure modality-specific signals, this architecture isolates Topological Atrophy (MRI) from Spectral Slowing (EEG). This allows clinicians to detect the specific subtype of neurodegeneration where functional failure precedes structural loss.
+2. We introduce a validation pipeline capable of training on unpaired heterogeneous datasets (ADHD-200 and MNE-Sample). This solves the "Paired Data Scarcity" bottleneck that restricts most deep learning models to small, private cohorts.
+3. Instead of a Softmax output, the final risk assessment uses a weighted logic gate. This ensures that a critical failure in either modality (e.g., severe EEG slowing) triggers a high-risk alert, preventing the "averaging out" of severe symptoms often seen in neural network fusion.
+---
 
 ## Abstract
 
