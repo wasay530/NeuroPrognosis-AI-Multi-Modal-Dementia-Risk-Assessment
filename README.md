@@ -11,7 +11,7 @@
 
 ## Abstract
 
-Dementia, particularly Alzheimer's Disease (AD), is often characterized as a **"Disconnection Syndrome"**—the breakdown of functional pathways between brain regions before significant structural atrophy occurs. 
+Dementia, particularly Alzheimer's Disease (AD), is often characterized as a **"Disconnection Syndrome"** the breakdown of functional pathways between brain regions before significant structural atrophy occurs. 
 
 **NeuroPrognosis-AI** is a dual-stream diagnostic pipeline designed to detect these subtle failures. Unlike traditional "Black Box" Deep Learning, this framework uses **Explainable AI (XAI)** to extract interpretable biomarkers:
 1.  **Spatial Topology (MRI):** Identifying the loss of "hub" connectivity in the Default Mode Network (DMN).
